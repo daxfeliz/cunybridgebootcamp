@@ -1,5 +1,5 @@
 
-This repository can be found at: [https://github.com/daxfeliz/CUNY_Bridge_BootCamp](https://github.com/daxfeliz/CUNY_Bridge_BootCamp)
+This repository can be found at: [cunybridgebootcamp.github.io](cunybridgebootcamp.github.io)
 
 
 CUNY Bridge Computational Workshop
