@@ -13,7 +13,7 @@ Here you can find all the notebooks used for this class.
                 <td>1</td>
                 <td>Jan 23, 2017</td>
                 <td>
-                    <a href="https://github.com/VandyAstroML/Vanderbilt_Computational_Bootcamp/blob/master/notebooks/Week_01/01_ML_Intro.ipynb" target="_blank">iPython Notebook Week 1</a>
+                    <a href="https://github.com/VandyAstroML/Vanderbilt_Computational_Bootcamp/blob/master/notebooks/Week_01/01_Intro.ipynb" target="_blank">iPython Notebook Week 1</a>
                     <ul>
                         <li>Introduction to the <i>course</i></li>
                         <li><a href="https://arxiv.org/" target="_blank">arXiv</a></li>
@@ -42,7 +42,7 @@ Here you can find all the notebooks used for this class.
                 <td>3</td>
                 <td>Feb 6, 2017</td>
                 <td>
-                    <a href="https://github.com/VandyAstroML/Vanderbilt_Computational_Bootcamp/blob/master/notebooks/Week_03/03_ML_bash_jupyter.ipynb" target="_blank">iPython Notebook Week 3</a>
+                    <a href="https://github.com/VandyAstroML/Vanderbilt_Computational_Bootcamp/blob/master/notebooks/Week_03/03_bash_python.ipynb" target="_blank">iPython Notebook Week 3</a>
                     <ul>
                         <li>Basic Bash commands </li>
                         <li>Jupyter notebooks</li>
