@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>CUNY Bridge Computational Workshop
+August 2025 - Main</title>
+
+    <link rel="stylesheet" href="./../stylesheets/styles.css">
+    <link rel="stylesheet" href="./../stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96275072-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="https://github.com/daxfeliz/cunybridgebootcamp" target="_blank"><img src="./../images/CUNY_Bridge_Bootcamp_Logo.jpeg" align='center' height="100%" width="100%"></a></h1>
+        <h1><a href="2025_Fall_CUNY_Bridge_Computational_Workshop.html">CUNY Bridge Computational Workshop <br> August 2025</a></h1>
+        
+        <br/>
+<p>This website is maintained by <a href="https://daxfeliz.github.io/" target="_blank"> Dax Feliz</a></p>      
+</header>
+      <section>
+        <h1> General Information</h1>
+          <p> The main purpose of the group is to: </p>
+              <ul>
+                  <li> Show tools and applications that are useful for research</li>
+                  <li> Learn how to apply such tools to projects, especially using <em><b>Python</b></em></li>
+                  <li> Teach good coding practices</li>
+                  <li> Create a space where one can ask questions and easily get help from students, post-docs, and faculty</li>
+                  <li> Improve your coding skills, and <i><b>have fun</b></i> while doing it!</li>
+            </ul>
+          <p> The <b>Github repository</b> for this class is: <a href="https://github.com/daxfeliz/cunybridgebootcamp" target="_blank">https://github.com/daxfeliz/cunybridgebootcamp</a></p>
+          
+        <h1>Slack Information</h1>
+          <p>We will be using Slack to communicate ideas, resources, changes to the schedule, etc.
+              Make sure to download the app, since it makes it easier to know what's happening.
+          </p>
+          <ul>
+              <li><b>Slack website:</b> <a href="https://join.slack.com/t/cunybridgepro-as48674/shared_invite/zt-1cfvx2qdy-EymvUOdQnUEMirdPbNr9fA" target="_blank">CUNY Bridge Programming Bootcamp</a></li>
+              <li><b>Team Name:</b> cunybridgebootcamp</li>
+              <li><b>Email address:</b> You can use <b>any</b> email address. You just need to sign up to get an invite.</li>
+              <li><b>Slack App:</b> You can download the Slack app for your computer/phone <a href="https://slack.com/downloads" target='_blank'><b> here</b></a>.</li>
+          </ul>
+        
+        <h1>Schedule - August 2025</h1>
+          <p>(subject to change).</p>
+          <ul>
+              <li><b>CUNY Bridge Bootcamp Schedule and Locations:</b> Can be found <a href="https://tinyurl.com/mu88x9xc" target='_blank'><b> here</b></a>.</li>
+          </ul>
+        <table>
+          <tbody>
+            <tr>
+            <th width=40%>Session</th>
+            <th width=60%>Topics Covered</th>
+            </tr>
+            <tr>
+                <td>Session # 1</td>
+                <td>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/blob/main/current_and_past_sites/2025_notebooks/Session_01/01_Intro_and_Computer_Set_Up.ipynb" target="_blank">Jupyter Notebook 1</a>
+                    <ul>
+                        <li>Introduction to the <i>course</i></li>
+                        <li><a href="https://arxiv.org/" target="_blank">arXiv</a></li>
+                        <li><a href="http://adsabs.harvard.edu/" target="_blank">NASA ADS</a></li>
+                        <li><a href="http://myads.harvard.edu/" target="_blank">MyADS</a></li>
+                        <li><a href="https://overleaf.com/" target="_blank">OverLeaf</a></li>
+                        <li><a href="https://slack.com/" target="_blank">Slack</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Session # 2</td>
+                <td>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_02/02_Git_Set_Up_and_Practice.ipynb" target="_blank">Jupyter Notebook 2</a>
+                    <ul>
+                        <li>Python setup and <a href="https://www.continuum.io/downloads" target="_blank">Anaconda</a></li>
+                        <li><a href="https://git-scm.com/" target="_blank">Git</a> and <a href="https://github.com/" target="_blank">Github</a></li>
+                    </ul>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_02/Git_Part_2.ipynb" target="_blank">Jupyter Notebook 2B</a>
+                    <ul>
+                        <li>What to do if you pushed something onto a remote repository by mistake? REVERT! </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Session # 3</td>
+                <td>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_03/03_VSCode_Installation_and_Tutorial.ipynb" target="_blank">Jupyter Notebook 3</a>
+                    <ul>
+                        <li>Installation of VSCode </li>
+                    </ul>
+
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_03/04_Bash_and_Python_Basics.ipynb" target="_blank">Jupiter Notebook 4</a>
+                    <ul>
+                        <li>Basic Bash commands </li>
+                        <li>Jupyter notebooks</li>
+                        <li>Python 2 vs Python 3</li>                        
+                    </ul>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_03/05_Python_Structures.ipynb" target="_blank">Jupyter Notebook 5</a>
+                    <ul>
+                        <li>Functions</li>
+                        <li>Classes</li>
+                        <li>List Comprehensions</li>
+                        <li>Dictionaries</li>                    
+                    </ul>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Session # 4</td>
+                <td>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_04/06_Numpy_Matplotlib.ipynb" target="_blank">Jupyter Notebook 6</a>
+                    <ul>
+                        <li>Introduction to Numpy</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_04/07_Numpy_II_Scipy.ipynb" target="_blank">Jupyter Notebook 7</a>
+                    <ul>
+                        <li>Scipy</li>                
+                    </ul>
+                
+                  <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_04/08_Sys_and_Writing_Modules.ipynb" target="_blank">Jupyter Notebook 8</a>
+                  <ul>
+                    <li>Sys and Python Modules</li>
+                  </ul>                
+            </tr>
+            <tr>
+                <td>Session # 5</td>
+                <td>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_05/09_Pandas.ipynb" target="_blank">Jupyter Notebook 9</a>
+                    <ul>
+                        <li>Introduction to Pandas</li>
+                    </ul>
+                  <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_05/10_Astropy.ipynb" target="_blank">Jupyter Notebook 10</a>
+                    <ul>
+                        <li>Introduction to Astropy</li>
+                    </ul>                    
+                  <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_05/11_Astroquery.ipynb" target="_blank">Jupyter Notebook 11</a>
+                    <ul>
+                        <li>Introduction to Astroquery</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Session # 6</td>
+                <td>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_06/Open_Hack_Session.ipynb" target="_blank">Open Hack Session</a>
+                    <ul>
+                        <li><b>Open Hack Session</b></li>
+                        <li>Make sure to fill out the Google Form with any topics you'd like to work on/learn more about <a href="https://docs.google.com/document/d/1cgE35mig8dc1oi02DvqP4UuqziLKRdrfdZfnGWrMl3o/edit?usp=sharing" target="_blank">https://docs.google.com/document/d/1cgE35mig8dc1oi02DvqP4UuqziLKRdrfdZfnGWrMl3o/edit?usp=sharing</a></li>
+                    </ul>                
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_06/Intro_to_LaTeX.ipynb" target="_blank">Introduction to LaTeX</a>
+                    <ul>
+                        <li>Introduction to LaTeX</li>
+                    </ul>
+                    <a href="https://github.com/daxfeliz/cunybridgebootcamp/blob/main/current_and_past_sites/2025_notebooks/Open_Hack_Sessions/ML_Open_Hack_Session.ipynb" target="_blank">Introduction to Machine Learning Techniques</a>
+                     <ul>
+                         <li>Supervised and Unsupervised Learning basics</li>
+                         <li>Linear Regression basics with a Neural Network</li>
+                     </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Session # 7</td>
+                <td>
+                  <a href="https://github.com/daxfeliz/cunybridgebootcamp/blob/main/current_and_past_sites/2025_notebooks/Session_07/12_Statistics_Training.ipynb" target="blank">Jupyter Notebook 12</a>
+                  <ul>
+                    <li>Learn basic Statistics</li>
+                    <li>Practice fitting data</li>
+                    <li>Learn basics of MCMC analysis</li>
+                  </ul>                
+                </td>
+            </tr>
+            <tr>
+                <td>Session # 8</td>
+                <td>
+                <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_08/13_Intro_to_Gaussian_Processes_and_Practice.ipynb" target="_blank">Jupyter Notebook 13</a>
+                <ul>
+                    <li>Introduction to Gaussian Processes</li>
+                    <li>Example usage of Celerite2 and Pymc3</li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Session # 9</td>
+                <td>
+                  <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_09_10/Project_1/Star_Trails_from_ISS_images.ipynb" target="_blank">Artsy Programming Project</a>
+                  <ul>
+                    <li>Project 1: Creating Star Trails from ISS images</li>
+                    <li>Practice Image Processing</li>
+                    <li>Data Challenge: Manually Recreate a Image Stacking Process</li>
+                  </ul>               
+                  <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_06/Open_Hack_Session.ipynb" target="_blank">Open Hack Session</a>
+                    <ul>
+                        <li>Open Hack Session</li>                
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Session # 10</td>
+                <td>
+                  <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_09_10/Project_2/" target="_blank">Website Creation with Git Pages</a>
+                    <ul>
+                    <li>Project 2: Creating Website using Git-Pages</li>
+                    <li>Practice HTML, Java, CSS</li>
+                    <li>Practice using Git</li>
+                    <li>Customize your own website</li>
+                    </ul>
+                  <a href="https://github.com/daxfeliz/cunybridgebootcamp/tree/main/current_and_past_sites/2025_notebooks/Session_06/Open_Hack_Session.ipynb" target="_blank">Open Hack Session</a>
+                    <ul>
+                        <li>Open Hack Session</li>          
+                    </ul>  
+                </td>
+            </tr>
+                        
+        </tbody>
+        </table>
+        
+        <h1>Other links</h1>
+              </ul>
+          <h2>Version Control</h2>
+                <ul>
+                    <li><a href="https://github.com" target="_blank">Github website</a></li>
+                    <li><a href="https://docs.github.com/en" target="_blank">Github Guides & Tutorials</a></li>
+                    <li><a href="https://www.atlassian.com/git/tutorials/" target="_blank">Git tutorials & training</a> by Atlassian</li>
+                </ul>
+          <h2>Coding</h2>
+                <ul>
+                    <li><a href="https://www.codecademy.com/catalog/language/python" target="_blank">Python course</a> by Codecademy</li>
+                </ul>
+          <h2>LaTeX</h2>
+                <ul>
+                    <li><a href="https://www.overleaf.com/learn/Learn_LaTeX_in_30_minutes" target="_blank">Learn LaTeX in 30 minutes</a></li>
+                </ul>
+          <h2>Papers</h2>
+                <ul>
+                    <li><a href="http://arxiv.org/abs/1609.00037" target="_blank">"Good Enough Practices in Scientific Computing"</a> by Greg Wilson et al. (2016)</li>
+                    <li><a href="https://arxiv.org/abs/1610.04546" target="_blank">"Ten Simple Rules for Making Research Software More Robust"</a> by Morgan Taschuk et al. (2017)</li>
+                    <li><a href="http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261" target="_blank">Interactive Notebooks: Sharing the Code</a> by Helen Shen</li>
+                </ul>
+         <h2>General Advice about Reaching Out Via Email</h2>
+         <a href="General_Advice_for_asking_for_schtuffs.pdf" target="_blank">General Advice for Reaching Out to Potential Collaborators</a>
+         </p> 
+      </section>
+      <footer>
+      <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+<p><small> Inspired by Victor Calderon &mdash; <a href="https://vcalderon2009.github.io/">https://vcalderon2009.github.io</a></small></p>
+      </footer>
+    </div>
+    <script src="../javascripts/scale.fix.js"></script>
+  </body>
+</html>
