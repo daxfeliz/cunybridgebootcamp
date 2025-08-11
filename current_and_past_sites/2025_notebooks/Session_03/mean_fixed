@@ -1,0 +1,29 @@
+# Example dataset with a NaN value
+data = [5.0, 7.0, float('nan'), 8.0, 10.0]
+
+# Filter out NaN values using math.isnan
+import math
+clean_data = [x for x in data if not math.isnan(x)]
+
+# import numpy
+# clean_data = data[~numpy.isnan(data)]
+
+# Mean (now works)
+mean_value = sum(clean_data) / len(clean_data)
+
+# Median
+sorted_data = sorted(clean_data)
+mid_index = len(sorted_data) // 2
+if len(sorted_data) % 2 == 0:
+    median_value = (sorted_data[mid_index - 1] + sorted_data[mid_index]) / 2
+else:
+    median_value = sorted_data[mid_index]
+
+# Standard deviation
+variance = sum((x - mean_value) ** 2 for x in clean_data) / len(clean_data)
+std_dev_value = variance ** 0.5
+
+print("FIXED MEAN   :", mean_value)
+print("FIXED MEDIAN :", median_value)
+print("FIXED STDDEV :", std_dev_value)
+ 
