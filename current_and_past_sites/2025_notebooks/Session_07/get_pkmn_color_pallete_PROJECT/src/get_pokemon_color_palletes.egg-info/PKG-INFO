@@ -1,0 +1,76 @@
+Metadata-Version: 2.4
+Name: get-pokemon-color-palletes
+Version: 0.0.7
+Summary: A tool to query pokemon sprites and obtain color palletes for any given pokemon.
+Author-email: Dax Feliz <dfeliz@flatironinstitute.org>
+License: This should almost certainly be one of the standard licenses.
+        
+        Which one to pick is outside the scope of this session, but may
+        be discussed in future sessions about distributing your code.
+        
+        An example of standard license lists are at:
+        https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+        
+        I recommend the MIT standard license (free to use), template below:
+        
+        
+        
+        Copyright (c) <year> <copyright holders>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: colorthief
+Dynamic: license-file
+
+# get_pkmn_color_pallete
+Can't choose your favorite color palette? Choose your favorite pokemon! 
+
+This code is depends on colortheif ( https://github.com/fengsp/color-thief-py ) which is easy to install via pip:
+
+pip install colorthief
+
+All you you need is to enter your favorite pokemon's name!
+
+Example usage:
+
+    #pkmn='mewtwo' 
+    
+    #pkmn='pikachu'
+    
+    #pkmn='pichu'
+
+    #pkmn='Charizard'
+    
+    pkmn='calyrex'
+    
+    pkmn=str(413)
+    
+    colors = get_pkmn_pallete(pkmn)
+    
+    for x in range(len(colors)):
+    
+        plt.scatter(x,np.sin(x),color=np.array(colors[x]),s=20**2)
+        
+    plt.gca().set_facecolor('black')
+    
+    plt.xticks([])
+    
+    plt.yticks([])
+    
+    plt.savefig('pkmn_pallete.png')
+    
+    plt.show()
+
+
+![pkmn_pallete.png](pkmn_pallete.png)

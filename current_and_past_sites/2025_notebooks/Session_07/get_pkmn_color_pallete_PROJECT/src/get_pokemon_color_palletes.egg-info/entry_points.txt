@@ -1,0 +1,2 @@
+[console_scripts]
+get-pokemon-palette = get_pokemon_color_palletes.cli:main
