@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/get_pokemon_color_palletes/__init__.py
+src/get_pokemon_color_palletes/cli.py
+src/get_pokemon_color_palletes/core.py
+src/get_pokemon_color_palletes.egg-info/PKG-INFO
+src/get_pokemon_color_palletes.egg-info/SOURCES.txt
+src/get_pokemon_color_palletes.egg-info/dependency_links.txt
+src/get_pokemon_color_palletes.egg-info/entry_points.txt
+src/get_pokemon_color_palletes.egg-info/requires.txt
+src/get_pokemon_color_palletes.egg-info/top_level.txt
+test/test_main.py
